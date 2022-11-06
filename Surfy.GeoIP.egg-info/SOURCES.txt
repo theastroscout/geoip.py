@@ -1,0 +1,13 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+Surfy.GeoIP.egg-info/PKG-INFO
+Surfy.GeoIP.egg-info/SOURCES.txt
+Surfy.GeoIP.egg-info/dependency_links.txt
+Surfy.GeoIP.egg-info/top_level.txt
+geoip/__init__.py
+geoip/__main__.py
+geoip/lookup.py
+tests/__init__.py
+tests/__main__.py
+tests/test.py

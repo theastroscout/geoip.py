@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Surfy.GeoIP"
+version = "1.0.0"
+authors = [
+  { name="Alexander Yermolenko" },
+]
+description = "Best Free Rest API for IP-based user location detection"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://surfy.one/geoip"
+"GitHub" = "https://github.com/hqdaemon/geoip.py"
+"Bug Tracker" = "https://github.com/hqdaemon/geoip.py/issues"
