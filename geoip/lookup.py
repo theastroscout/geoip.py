@@ -8,6 +8,6 @@ class GeoIP():
 		self.headers = { 'Email' : self.email, 'Key' : self.key }
 
 	def get(self, IP):
-		url = 'https://api.surfy.one/geoip/' + IP
+		url = 'https://api.surfy.one/geo/ip/' + IP
 		result = requests.post(url, headers = self.headers)
 		return result.json()
